@@ -1,6 +1,10 @@
 header{
     width: 100vw;
     padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    background: #1b1b1b;
 }
 
 nav{
