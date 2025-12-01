@@ -2,7 +2,7 @@ import "./Services.css"
 
 function Services() {
     return (
-        <section id="section3">
+        <section id="service-sec">
             <div class="grheading">My Quality Services</div>
             <p class="headingtext">We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers.</p>
             <div class="servicetag">

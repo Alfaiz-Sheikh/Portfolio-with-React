@@ -10,9 +10,9 @@ function Header(){
                 </div>
                 <div className="menu">
                     <ul className="list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">About me</a></li>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#service-sec">Services</a></li>
+                        <li><a href="#about-sec">About me</a></li>
                         <li><a href="#">Protfolio</a></li>
                         <li><a href="#">Contact me</a></li>
                     </ul>
