@@ -1,0 +1,176 @@
+#hero{
+    width: 85%;
+    margin: auto;
+    padding: 75px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    background: linear-gradient(to right, #f96e00, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.leftsec{
+    width: 42%;
+}
+
+.rightsec{
+    width: 42%;
+}
+
+.grtext{
+    font-size: 3.1rem;
+    font-weight: bolder;
+    padding: 15px 0;
+}
+
+.leftsec-name{
+    font-size: 1.7rem !important;
+    font-weight: bold;
+    color: #fff !important;
+    margin-top: 10px;
+}
+
+.leftsec p{
+    line-height: 30px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.img{
+    width: 85%;
+    transform: rotate(5deg);
+    aspect-ratio: 1/1.05;
+    background-color: #000;
+    border-radius: 30px;
+    border: 2px solid #f96e00;
+    box-shadow: -5px 5px 20px rgba(255, 255, 255, 0.1);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.img:hover{
+    transform: rotate(0deg);
+    border: 2px solid #f96e00;
+}
+
+.img img{
+    width: 105%;
+    height: 100%;
+    /* aspect-ratio: 1/1.05; */
+    border-radius: 30px;
+
+}
+
+.leftsecbtn{
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.leftsecbtn a{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border: 1px solid #f96e00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #f96e00;
+    transition: all 0.5s ease;
+    margin: 10px auto;
+}
+
+.leftsecbtn div{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.leftsecbtn a:hover{
+    background-color: #f96e00;
+    color: #fff;
+}
+
+.cvbtn{
+    padding: 15px 40px;
+    background-color: transparent;
+    color: #f96e00;
+    border: 1px solid #f96e00;
+    border-radius: 50px;
+    font-weight: bolder; 
+    transition: all 0.5s ease-in-out;
+}
+
+.cvbtn:hover{
+    background-color: #f96e00;
+    color: #fff;
+}
+
+@media screen and (max-width: 991px){
+    #hero{
+        width: 73%;
+        padding: px 0;
+    }
+    .leftsec div:first-child{
+        font-size: 1.6rem;
+    }
+    .grtext{
+        font-size: 1.8rem;
+        padding: 5px 0;
+    }
+
+    .leftsecbtn div{
+        width: 100%;
+        margin: 10px;
+    }
+    .cvbtn{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 767px){
+    header{
+        height: 50px;
+    }
+
+    nav{
+        height: 50px;
+    }
+    #hero{
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 1px 0;
+    }
+
+    .grtext{
+        font-size: 2.5rem;
+    }
+
+    .leftsec{
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .rightsec{
+        width: 90%;
+        margin: auto;
+        margin-left: 10%;
+    }
+
+    .leftsecbtn{
+        margin-top: 20px;
+        width: 100%;
+    }
+}
