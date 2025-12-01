@@ -1,5 +1,6 @@
 import './Header.css';
 import logo from '../assets/logo.png';
+import menuConfig from '../config/menuConfig';
 
 function Header(){
     return (
@@ -10,11 +11,9 @@ function Header(){
                 </div>
                 <div className="menu">
                     <ul className="list">
-                        <li><a href="#hero">Home</a></li>
-                        <li><a href="#service-sec">Services</a></li>
-                        <li><a href="#about-sec">About me</a></li>
-                        <li><a href="#">Protfolio</a></li>
-                        <li><a href="#">Contact me</a></li>
+                        {menuConfig.map((item) => (
+                            <li key={item.id}><a href={item.link}>{item.label}</a></li>
+                        ))}
                     </ul>
                 </div>
                 <a href="" className="hire-me">Hire Me</a>
