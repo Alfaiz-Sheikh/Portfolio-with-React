@@ -1,4 +1,5 @@
 import "./Projects.css"
+import ProjectCard from "./ProjectCard";
 
 function Projects() {
     return(
@@ -11,10 +12,14 @@ function Projects() {
                 <li>Mini Projects</li>
             </ul>
             <div className="projects">
-                <div className="project">
-                    <img src="" alt="" className="project-img" />
-                    <p className="project-name"></p>
-                </div>
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
+                <ProjectCard />
             </div>
         </section>
     )

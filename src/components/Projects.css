@@ -1,6 +1,6 @@
 #project-sec{
     width: 100vw;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .projects-menu{
@@ -30,4 +30,9 @@
 .projects{
     width: 85%;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
 }

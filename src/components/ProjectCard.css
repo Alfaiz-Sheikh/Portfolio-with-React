@@ -1,0 +1,24 @@
+.projectCard{
+    width: calc(25% - 30px);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #000;
+    transition: all 0.3s ease;
+}
+
+.projectImg{
+    width: 100%;
+    filter: brightness(0.5);
+}
+
+.cardTxt{
+    width: 100%;
+    padding: 15px 7px;
+    background: #252525;
+}
+
+.projectCard:hover{
+    border: 3px solid #f96e00;
+}
