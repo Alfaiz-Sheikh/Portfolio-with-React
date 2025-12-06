@@ -6,7 +6,7 @@ import projectsData from "../config/projectsData";
 function Projects() {
     const [activeCategory, setActiveCategory] = useState("All");
 
-    const categories = ["All", "E-commerce", "Travel", "Mini Projects"];
+    const categories = ["All", "React Projects", "E-commerce", "HTML Layouts", "Mini Projects"];
 
     const filteredProjects = activeCategory === "All" ? projectsData : projectsData.filter(
           (project) => project.category === activeCategory
@@ -31,6 +31,7 @@ function Projects() {
                     key={project.id}
                     title={project.title}
                     image={project.image}
+                    url={project.url}
                 />
                 ))}
             </div>

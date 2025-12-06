@@ -6,11 +6,17 @@
     flex-direction: column;
     border: 3px solid #000;
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: #fff;
+}
+
+.projectCard:hover{
+    color: #f96e00;
 }
 
 .projectImg{
     width: 100%;
-    filter: brightness(0.5);
+    filter: brightness(0.8);
 }
 
 .cardTxt{

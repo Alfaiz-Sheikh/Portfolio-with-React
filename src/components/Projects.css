@@ -4,14 +4,14 @@
 }
 
 .projects-menu{
-    width: 40%;
+    width: 100%;
     margin: auto;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
-    justify-content: space-between;
+    gap: 20px;
+    justify-content: center;
     color: #fff;
     margin-top: 20px;
 }
