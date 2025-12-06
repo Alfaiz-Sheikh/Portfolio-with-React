@@ -7,6 +7,9 @@ import Services from './components/Services';
 import About from './components/About';
 import Projects from './components/Projects';
 import reportWebVitals from './reportWebVitals';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +19,9 @@ root.render(
     <Services />
     <About />
     <Projects />
+    <Resume />
+    <Contact />
+    <Footer />
   </React.StrictMode>
 );
 

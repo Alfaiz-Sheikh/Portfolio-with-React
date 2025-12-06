@@ -22,12 +22,12 @@ const menuConfig = [
     {
         id: 5,
         label: 'Portfolio',
-        link: '#portfolio-sec'
+        link: '#resume'
     },
     {
         id: 6,
         label: 'Contact me',
-        link: '#contact-sec'
+        link: '#contact'
     }
 ];
 

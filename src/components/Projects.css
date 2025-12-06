@@ -36,3 +36,13 @@
     gap: 30px;
     margin-top: 40px;
 }
+
+.projects-menu li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.projects-menu li.active {
+  color: #f96e00;
+  font-weight: 600;
+}

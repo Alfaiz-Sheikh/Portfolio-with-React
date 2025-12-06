@@ -16,7 +16,7 @@ function Header(){
                         ))}
                     </ul>
                 </div>
-                <a href="" className="hire-me">Hire Me</a>
+                <a href="#contact" className="hire-me">Hire Me</a>
                 <span id="more">&#9776;</span>
                 </nav>
         </header>

@@ -1,12 +1,11 @@
 import "./ProjectCard.css";
-import Project1 from '../assets/Project1.png'
 
-function ProjectCard() {
+function ProjectCard({title, image}) {
     return(
         <div className="projectCard">
-            <img src={Project1} alt="" className="projectImg" />
+            <img src={image} alt="" className="projectImg" />
             <div className="cardTxt">
-                <p className="projectName">Project1</p>
+                <p className="projectName">{title}</p>
             </div>
         </div>
     )

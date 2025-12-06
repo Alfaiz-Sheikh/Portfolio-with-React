@@ -1,0 +1,26 @@
+#resume{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.resumesec{
+    width: 50%;
+}
+
+.edutag{
+    background-color: #1b1b1b;
+    margin: 2vmax;
+    border-radius: 1.5vw;
+    padding: 20px;
+}
+
+.edutag h2{
+    font-size: 1.7em;
+    background: linear-gradient(to right, #f96e00, #FBF9FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
