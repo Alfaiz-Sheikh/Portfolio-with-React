@@ -1,6 +1,6 @@
 import "./Hero.css"
 import TypingText from "../components/TypingText";
-import me from "../assets/me.png"
+import me2 from "../assets/me2.jpg"
 
 const Hero = () => {
     return (
@@ -22,7 +22,7 @@ const Hero = () => {
             </div>
             <div class="rightsec">
                 <div class="img">
-                        <img src={me} alt="" />
+                        <img src={me2} alt="" />
                 </div>
             </div>
         </section>

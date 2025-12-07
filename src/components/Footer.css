@@ -32,3 +32,49 @@ footer > p{
     color: #f96e00;
     margin-top: 40px;
 }
+
+footer{
+  overflow-x: hidden;
+}
+
+@media (max-width: 1024px){
+  .footer-logo{
+    width: 30%;
+  }
+
+  .footer-links{
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px){
+  .footer-logo{
+    width: 40%;
+  }
+
+  .footer-links{
+    width: 70%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  footer > p{
+    margin-top: 30px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px){
+  .footer-logo{
+    width: 60%;
+  }
+
+  .footer-links{
+    width: 100%;
+  }
+
+  footer > p{
+    font-size: 0.9rem;
+  }
+}

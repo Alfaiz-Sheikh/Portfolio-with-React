@@ -51,3 +51,47 @@
         text-align: center;
     }
 }
+
+/* max width for large screens */
+.about{
+  max-width: 1200px;
+  gap: 40px;
+}
+
+/* improve image behavior */
+.about-img img{
+  height: auto;
+  display: block;
+}
+
+/* tablet screens */
+@media (max-width: 1024px){
+  .about{
+    width: 90%;
+  }
+
+  .about-img{
+    width: 45%;
+  }
+}
+
+/* small mobile screens */
+@media (max-width: 480px){
+  #about-sec{
+    padding: 50px 0;
+  }
+
+  .about{
+    width: 95%;
+    gap: 30px;
+  }
+
+  .about-img{
+    width: 85%;
+  }
+
+  .about-txt p{
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}

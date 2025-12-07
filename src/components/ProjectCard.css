@@ -1,30 +1,45 @@
 .projectCard{
-    width: calc(25% - 30px);
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    border: 3px solid #000;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    color: #fff;
+  width: calc(25% - 30px);
+  border-radius: 15px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #000;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: #fff;
 }
 
 .projectCard:hover{
-    color: #f96e00;
+  color: #f96e00;
+  border: 3px solid #f96e00;
 }
 
 .projectImg{
-    width: 100%;
-    filter: brightness(0.8);
+  width: 100%;
+  filter: brightness(0.8);
 }
 
 .cardTxt{
-    width: 100%;
-    padding: 15px 7px;
-    background: #252525;
+  width: 100%;
+  padding: 15px 7px;
+  background: #252525;
 }
 
-.projectCard:hover{
-    border: 3px solid #f96e00;
+@media (max-width: 1200px){
+  .projectCard{
+    width: calc(33.33% - 30px);
+  }
+}
+
+@media (max-width: 992px){
+  .projectCard{
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px){
+  .projectCard{
+    width: calc(50% - 15px);
+  }
 }

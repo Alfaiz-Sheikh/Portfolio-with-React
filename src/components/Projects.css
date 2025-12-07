@@ -46,3 +46,48 @@
   color: #f96e00;
   font-weight: 600;
 }
+
+@media (max-width: 1024px){
+  .projects{
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px){
+  #project-sec{
+    padding-top: 70px;
+  }
+
+  .projects-menu{
+    gap: 15px;
+  }
+
+  .projects-menu li{
+    padding: 8px 20px;
+    font-size: 0.95rem;
+  }
+
+  .projects{
+    width: 95%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px){
+  #project-sec{
+    padding-top: 50px;
+  }
+
+  .projects-menu{
+    gap: 10px;
+  }
+
+  .projects-menu li{
+    padding: 7px 16px;
+    font-size: 0.9rem;
+  }
+
+  .projects{
+    gap: 15px;
+  }
+}

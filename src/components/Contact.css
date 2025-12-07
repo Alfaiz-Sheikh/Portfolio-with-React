@@ -29,10 +29,12 @@
 .contact-form > input{
     background-color: #141312;
     font-size: 1em;
-    padding: 15px 20px;
+    padding: 15px 0;
+    padding-left: 10px;
     border: 1px solid #22272c;
     border-radius: 7px;
     margin: 10px;
+    width: calc(50% - 40px);
 }
 
 .contact-form > select{
@@ -95,4 +97,96 @@
 
 .contact-desc > a:hover, .contact-desc:hover{
     color: #f96e00;
+}
+
+/* prevent overflow issues */
+#contact{
+  overflow-x: hidden;
+}
+
+/* improve large screen layout */
+.contact-sec{
+  gap: 50px;
+}
+
+/* tablet screens */
+@media (max-width: 1024px){
+  .contact-sec{
+    width: 90%;
+  }
+
+  .contact-form{
+    width: 55%;
+    padding: 40px;
+  }
+
+  .contact-info{
+    width: 45%;
+  }
+
+  .contact-tag{
+    width: 80%;
+  }
+
+  .contact-desc{
+    font-size: 1.1em;
+  }
+}
+
+/* mobile screens */
+@media (max-width: 768px){
+  #contact{
+    padding: 70px 0;
+  }
+
+  .contact-sec{
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+  }
+
+  .contact-form{
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .contact-form > input,
+  .contact-form > select{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-form > input[type="textarea"]{
+    width: 100%;
+  }
+
+  .submit-btn{
+    margin-left: 0;
+  }
+
+  .contact-info{
+    width: 100%;
+  }
+
+  .contact-tag{
+    width: 100%;
+    justify-content: center;
+    text-align: left;
+  }
+}
+
+/* small mobile screens */
+@media (max-width: 480px){
+  #contact{
+    padding: 50px 0;
+  }
+
+  .contact-desc{
+    font-size: 1em;
+  }
+
+  .contact-icon{
+    min-width: 42px;
+    font-size: 1.1em;
+  }
 }
