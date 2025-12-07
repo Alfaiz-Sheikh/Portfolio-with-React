@@ -1,5 +1,6 @@
 import "./Hero.css"
 import TypingText from "../components/TypingText";
+import me from "../assets/me.png"
 
 const Hero = () => {
     return (
@@ -10,18 +11,18 @@ const Hero = () => {
                 <TypingText />
                 <p>A frontend developer skilled in HTML, CSS, and JavaScript. I specialize in crafting clean, responsive websites that deliver great user experiences.</p>
                 <div class="leftsecbtn">
-                    <button class="cvbtn">Download CV <i class="fa-solid fa-download"></i></button>
+                    <a class="cvbtn" href="/CV.pdf" download="My_CV.pdf">Download CV <i class="fa-solid fa-download"></i></a>
                     <div>
-                        <a href="https://github.com/Alfaiz-Sheikh" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/alfaiz-sheikh-a2065a282/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://www.facebook.com/alfai.sheikh" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/alfaiz_h_sheikh/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Alfaiz-Sheikh" target="_blank" className="social-btn"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/alfaiz-sheikh-a2065a282/" target="_blank" className="social-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.facebook.com/alfai.sheikh" target="_blank" className="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/alfaiz_h_sheikh/" target="_blank" className="social-btn"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
             <div class="rightsec">
                 <div class="img">
-                        <img src="" alt="" />
+                        <img src={me} alt="" />
                 </div>
             </div>
         </section>

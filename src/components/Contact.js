@@ -24,7 +24,7 @@ function Contact() {
                 <div className="contact-info">
                     <div className="contact-tag">
                         <div className="contact-icon">
-                            0
+                            <i class="fa-solid fa-phone"></i>
                         </div>
                         <div className="contact-txt">
                             <p className="contact-heading">Phone</p>
@@ -35,7 +35,7 @@ function Contact() {
                     </div>
                     <div className="contact-tag">
                         <div className="contact-icon">
-                            0
+                            <i class="fa-regular fa-envelope"></i>
                         </div>
                         <div className="contact-txt">
                             <p className="contact-heading">Email</p>
@@ -46,7 +46,7 @@ function Contact() {
                     </div>
                     <div className="contact-tag">
                         <div className="contact-icon">
-                            0
+                            <i class="fa-solid fa-location-dot"></i>
                         </div>
                         <div className="contact-txt">
                             <p className="contact-heading">Address</p>

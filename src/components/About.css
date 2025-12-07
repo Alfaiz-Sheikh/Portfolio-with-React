@@ -14,20 +14,17 @@
 
 .about-img{
     width: 40%;
-    height: 400px;
-    position: relative;
+    margin: auto;
+    background: #1b1b1b;
+    border-radius: 50% 50% 10px 10px;
 }
 
-.about-img::after{
-    content: "";
-    width: 80%;
-    margin: auto;
-    height: 100%;
-    background: #1b1b1b;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 50% 50% 10px 10px;
+.highlight{
+    color: #f96e00;
+}
+
+.about-img > img{
+    width: 100%;
 }
 
 .about-txt{

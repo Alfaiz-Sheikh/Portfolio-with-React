@@ -27,7 +27,7 @@ function Resume() {
             </div>
         </div>
         <div class="resumesec">
-            <div class="grheading"><i class="fa-solid fa-graduation-cap"></i>My Experience</div>
+            <div class="grheading"><i class="fa-solid fa-laptop-code"></i>My Experience</div>
             <div class="edutag">
                 <h3>Oct, 2025 - Present</h3>
                 <h2>Front-End Developer</h2>

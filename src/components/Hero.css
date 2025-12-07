@@ -73,7 +73,7 @@
     flex-wrap: wrap;
 }
 
-.leftsecbtn a{
+.social-btn{
     width: 35px;
     aspect-ratio: 1/1;
     border: 1px solid #f96e00;
@@ -109,6 +109,7 @@
     border-radius: 50px;
     font-weight: bolder; 
     transition: all 0.5s ease-in-out;
+    text-decoration: none;
 }
 
 .cvbtn:hover{
