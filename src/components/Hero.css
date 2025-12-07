@@ -175,3 +175,40 @@
         font-size: 1.7em;
     }
 }
+
+#more{
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #f96e00;
+}
+
+@media screen and (max-width: 768px){
+  .menu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #000;
+    display: none;
+  }
+
+  .menu.active{
+    display: block;
+  }
+
+  .menu ul{
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  #more{
+    display: block;
+  }
+
+  .hire-me{
+    display: none;
+  }
+}
