@@ -28,14 +28,14 @@ const projectsData = [
     title: "Travel Website Layout",
     category: "HTML Layouts",
     image: Project3,
-    url: "https://github.com/Alfaiz-Sheikh/Travel-Website-Layout.git"
+    url: "https://github.com/Alfaiz-Sheikh/Travel-Website-Layout.git",
   },
   {
     id: 4,
     title: "Portfolio with ReactJS",
     category: "React Projects",
     image: Project4,
-    url: "#hero"
+    url: "#hero",
   },  
   {
     id: 5,
